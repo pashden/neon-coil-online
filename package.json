@@ -1,0 +1,12 @@
+{
+  "name": "neon-coil-online",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Public multiplayer snake arena with a shrinking safe zone",
+  "engines": { "node": ">=22 <25" },
+  "scripts": {
+    "start": "node server.cjs",
+    "build": "node --check server.cjs && node --check engine.cjs",
+    "test": "node --test server.test.cjs"
+  }
+}
